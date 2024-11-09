@@ -7,7 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="41" Margin="312,175,0,0" Click="Button_Click"/>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Файл" Height="25">
+                <MenuItem.Icon>
+                    <Image Source="\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\png-transparent-blue-pepsi-can-pepsi-soft-drink-coca-cola-beer-pepsi-blue-food-electric-blue-thumbnail.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Header="ОТкрыть">
+                    
+                    <MenuItem Header="пепси 1" Click="MenuItem_Click_1"></MenuItem>
+                    <MenuItem Header="пепси 2" Click="MenuItem_Click_2"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Сохранить"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Выйти" Click="MenuItem_Click"> </MenuItem>
+            </MenuItem>
+            
+        </Menu>
+        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="41" Margin="485,300,0,0" Click="Button_Click"/>
+        <Image Name ="DisplayImage"  HorizontalAlignment="Left" Height="232" Margin="172,80,0,0" VerticalAlignment="Top" Width="268"/>
 
     </Grid>
 </Window>

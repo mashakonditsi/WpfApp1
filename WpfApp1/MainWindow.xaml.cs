@@ -20,6 +20,8 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string imgsourse1 = @"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\png-transparent-blue-pepsi-can-pepsi-soft-drink-coca-cola-beer-pepsi-blue-food-electric-blue-thumbnail.png";
+        private string imgsourse2 = @"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\017def90128415.5e0e88c6d3df0.png";
         public MainWindow()
         {
             InitializeComponent();
@@ -31,6 +33,23 @@ namespace WpfApp1
             window.Show();
             this.Close();
 
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("ПРиложение zакрылось");
+            Application.Current.Shutdown();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            DisplayImage.Source = new BitmapImage(new Uri(imgsourse1));
+
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            DisplayImage.Source = new BitmapImage(new Uri(imgsourse2));
         }
     }
 }
