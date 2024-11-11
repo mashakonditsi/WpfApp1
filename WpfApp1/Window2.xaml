@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
-        <Button Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="221" Margin="253,165,0,0" Height="100" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="221" Margin="260,259,0,0" Height="100" Click="Button_Click"/>
+        <PasswordBox Margin="272,103,332,249"/>
+        <TextBlock  Name ="Ma" TextWrapping="Wrap" Text="TextBlock" Margin="543,71,133,290"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="45" Margin="586,244,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

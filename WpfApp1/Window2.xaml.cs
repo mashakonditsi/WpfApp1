@@ -30,5 +30,13 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Ma.Text = "qwerty eshkere'";
+
+        }
+
+        
     }
 }

@@ -12,10 +12,9 @@
                 <MenuItem.Icon>
                     <Image Source="\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\png-transparent-blue-pepsi-can-pepsi-soft-drink-coca-cola-beer-pepsi-blue-food-electric-blue-thumbnail.png"></Image>
                 </MenuItem.Icon>
-                <MenuItem Header="ОТкрыть">
+                <MenuItem Header="ОТкрыть" Click="MenuItem_Click_1">
                     
-                    <MenuItem Header="пепси 1" Click="MenuItem_Click_1"></MenuItem>
-                    <MenuItem Header="пепси 2" Click="MenuItem_Click_2"></MenuItem>
+                    
                 </MenuItem>
                 <MenuItem Header="Сохранить"></MenuItem>
                 <Separator/>
