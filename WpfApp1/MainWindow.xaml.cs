@@ -21,8 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string imgsourse1 = @"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\png-transparent-blue-pepsi-can-pepsi-soft-drink-coca-cola-beer-pepsi-blue-food-electric-blue-thumbnail.png";
-        private string imgsourse2 = @"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\017def90128415.5e0e88c6d3df0.png";
+        
         public MainWindow()
         {
             InitializeComponent();
