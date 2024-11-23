@@ -52,6 +52,18 @@ namespace WpfApp1
             }
         }
 
-        
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            kostyanolegovich window = new kostyanolegovich();
+            window.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            masa window = new masa();
+            window.Show();
+            this.Close();
+        }
     }
 }

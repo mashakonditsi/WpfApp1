@@ -13,17 +13,19 @@
                     <Image Source="\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\volohma\Downloads\png-transparent-blue-pepsi-can-pepsi-soft-drink-coca-cola-beer-pepsi-blue-food-electric-blue-thumbnail.png"></Image>
                 </MenuItem.Icon>
                 <MenuItem Header="ОТкрыть" Click="MenuItem_Click_1">
-                    
-                    
+
+
                 </MenuItem>
                 <MenuItem Header="Сохранить"></MenuItem>
                 <Separator/>
-                <MenuItem Header="Выйти" Click="MenuItem_Click"> </MenuItem>
+                <MenuItem Header="Выйти" Click="MenuItem_Click"></MenuItem>
             </MenuItem>
-            
+
         </Menu>
-        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="41" Margin="485,300,0,0" Click="Button_Click"/>
-        <Image Name ="DisplayImage"  HorizontalAlignment="Left" Height="232" Margin="172,80,0,0" VerticalAlignment="Top" Width="268"/>
+        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="41" Margin="161,356,0,0" Click="Button_Click"/>
+        <Image Name ="DisplayImage"  HorizontalAlignment="Left" Height="232" Margin="485,36,0,0" VerticalAlignment="Top" Width="268"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="72" Margin="24,341,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_1"/>
+        <Button Content="Test" HorizontalAlignment="Left" Height="129" Margin="287,165,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click_2" />
 
     </Grid>
 </Window>

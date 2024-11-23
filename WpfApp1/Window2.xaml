@@ -27,15 +27,15 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
-                <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Background="Pink" Click="NumberButton_Click" /> 
+                <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Background="AliceBlue" Click="NumberButton_Click"/>
+                <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Background="Pink" Click="NumberButton_Click"/>
+                <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0" Background="AliceBlue" Click="NumberButton_Click"/>
+                <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1" Background="Pink" Click="NumberButton_Click"/>
+                <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2" Background="AliceBlue" Click="NumberButton_Click"/>
+                <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0" Background="Pink" Click="NumberButton_Click"/>
+                <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Background="AliceBlue" Click="NumberButton_Click"/>
+                <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Background="Pink" Click="NumberButton_Click"/>
                 <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="Pink" Click="NumberButton_Click"/>
                 <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1" Background="Pink" Click="OperationButton_Click"/>
                 <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Background="AliceBlue" Click="OperationButton_Click"/>

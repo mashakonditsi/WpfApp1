@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp1.masa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="masa" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Какой у меня любимый напиток?" VerticalAlignment="Top" Margin="24,25,0,0" Height="15" Width="185"/>
+            <RadioButton Name="RadioBut" GroupName="Test1" Content="Aqua minerale"/>
+            <RadioButton Name="RadioBut2" GroupName="Test1" Content="Жигулевское"/>
+            <RadioButton Name="RadioBut3" GroupName="Test1" Content="Пепси Кола"/>
+            <Separator/>
+
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="сколько мне лет?" VerticalAlignment="Top" Margin="24,25,0,0" Height="16" Width="120"/>
+            <RadioButton Name="RadioButt" GroupName="Test2" Content="1"/>
+            <RadioButton Name="RadioButt2" GroupName="Test2" Content="6"/>
+            <RadioButton Name="RadioButt3" GroupName="Test2" Content="14"/>
+            <Separator/>
+
+
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="что вкуснее пепси или кола?" VerticalAlignment="Top" Margin="24,25,0,0" Height="20" Width="173"/>
+            <RadioButton Name="RadioButto" GroupName="Test3" Content="Пепси"/>
+            <RadioButton Name="RadioButto2" GroupName="Test3" Content="Кола"/>
+            <Separator/>
+
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Какой сейчас год?" VerticalAlignment="Top" Margin="24,25,0,0" Height="16" Width="112"/>
+            <RadioButton Name="RadioButton" GroupName="Test4" Content="2021"/>
+            <RadioButton Name="RadioButton2" GroupName="Test4" Content="2019"/>
+            <RadioButton Name="RadioButton3" GroupName="Test4" Content="2024"/>
+            <Separator/>
+            <Button Content="Ответить" Click="Button_Click"/>
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>
