@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Calc" Height="450" Width="300">
+       Title="Calc" Height="450" Width="300">
     <Grid>
         <Grid>
             <Grid.RowDefinitions>
@@ -27,27 +27,23 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Background="Pink"/>
-                <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Background="DeepPink"/>
-                <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Background="Pink"/>
-                <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0"/>
-                <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1"/>
-                <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2"/>
-                <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0"/>
-                <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1"/>
-                <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2"/>
-                <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="HotPink"/>
-                
-                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1"/>
-                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2"/>
-                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3"/>
-                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2"/>
-                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Background="HotPink"/>
-                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0"/>
-                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2"/>
-
-
-
+                <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Background="WhiteSmoke" Click="NumberButton_Click"/>
+                <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="Pink" Click="NumberButton_Click"/>
+                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1" Background="Pink" Click="OperationButton_Click"/>
+                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Background="AliceBlue" Click="OperationButton_Click"/>
+                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3" Background="Pink" Click="OperationButton_Click"/>
+                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Background="AliceBlue" Click="OperationButton_Click"/>
+                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Background="Pink" Click="EqualsButton_Click"/>
+                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0" Background="AliceBlue" Click="ClearButton_Click"/>
+                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2" Background="AliceBlue" Click="NumberButton_Click"/>
             </Grid>
         </Grid>
     </Grid>
