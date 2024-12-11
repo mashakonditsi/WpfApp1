@@ -26,6 +26,7 @@
         <Image Name ="DisplayImage"  HorizontalAlignment="Left" Height="232" Margin="485,36,0,0" VerticalAlignment="Top" Width="268"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="72" Margin="24,341,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_1"/>
         <Button Content="Test" HorizontalAlignment="Left" Height="129" Margin="287,165,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click_2" />
+		<Button Content="Button" HorizontalAlignment="Left" Height="102" Margin="611,249,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click_3"/>
 
-    </Grid>
+	</Grid>
 </Window>

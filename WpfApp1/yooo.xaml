@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.yooo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="yooo" Height="450" Width="800">
+    <Grid>
+        <DatePicker SelectedDateChanged="DatePicker_SelectedDateChanged" />
+        <Calendar SelectedDatesChanged="cal_SelectedDatesChanged" FirstDayOfWeek="Monday" SelectionMode="MultipleRange" Margin="209,117,258,-117" x:Name="cal">
+            <Calendar.BlackoutDates>
+                <CalendarDateRange Start="12.1.2024" End="12.10.2024"/>
+            </Calendar.BlackoutDates>
+        </Calendar>
+        <TextBox HorizontalAlignment="Left" Height="86" Margin="78,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" Name="TB1"/>
+        <TextBox HorizontalAlignment="Left" Height="71" Margin="562,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Name="TB2"/>
+    </Grid>
+</Window>
